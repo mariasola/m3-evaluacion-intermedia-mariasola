@@ -1,0 +1,15 @@
+.pokemon{
+    height: 200px;
+    width:180px;
+    border: black 1px solid;
+    margin: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pokemon_types{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    border: blue 1px solid;
+}

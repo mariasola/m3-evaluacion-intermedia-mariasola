@@ -1,11 +1,12 @@
 import React from "react";
 import Pokemon from "./Pokemon";
+import "../stylesheets/pokeList.css";
 
 class PokeList extends React.Component {
   render() {
     const { pokemon, click } = this.props;
     return (
-      <ul>
+      <ul className="pokemon_list">
         {pokemon.map(item => (
           <li>
             <Pokemon
