@@ -6,11 +6,11 @@ class Pokemon extends React.Component {
     const { id, url, name, types, click } = this.props;
     return (
       <div onClick={click} id={id}>
-        <img className="pokePic" src={url} alt={name} />
-        <div className="pokemonName">
+        <img className="pokemon_img" src={url} alt={name} />
+        <div className="pokemon_name">
           <h3>{name}</h3>
         </div>
-        <ul className="pokeTypes">
+        <ul className="pokemon_types">
           {types.map((item, index) => (
             <li key={`${name}${index}`} className="type">
               {types[index]}
