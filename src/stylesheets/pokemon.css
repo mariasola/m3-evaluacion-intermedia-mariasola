@@ -1,22 +1,57 @@
 .pokemon{
-    height: 200px;
-    width:180px;
-    border: black 1px solid;
-    margin: 10px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.pokemon_types{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
 }
 .favStyle{
-    background-color:lightsteelblue;
+    /* background-color:#3B4CCA; */
     text-transform: uppercase;
 }
 
 .defaultStyle{
-    background-color: gold;
+    background-color: white;
+}
+.pokemon_img{
+    position: relative;
+    height: 190px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.pokemon_name{
+    font-size: 26px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.pokemon_types{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    height: 80px;
+    background-color: #cc0000;
+    padding: 0px;
+    list-style: none;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.pokemon_types_item{
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+    border-radius: 5px;
+    color:white;
+}
+.pokemon_types_item:nth-child(0n+2){
+    border-left: 2px solid white;
+    border-radius: 0px;
+    padding: 25px 0 25px 68px;
 }

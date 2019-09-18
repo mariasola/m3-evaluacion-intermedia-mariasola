@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../stylesheets/pokemon.css";
+import "../stylesheets/Pokemon.css";
 
 class Pokemon extends React.Component {
   changeStyle() {
