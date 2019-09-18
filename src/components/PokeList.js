@@ -15,6 +15,7 @@ class PokeList extends React.Component {
               name={item.name}
               types={item.types}
               url={item.url}
+              isFav={item.isFav}
               click={click}
             />
           </li>

@@ -12,3 +12,11 @@
     flex-direction: row;
     list-style: none;
 }
+.favStyle{
+    background-color:lightsteelblue;
+    text-transform: uppercase;
+}
+
+.defaultStyle{
+    background-color: gold;
+}
